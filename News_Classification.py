@@ -10,7 +10,7 @@ MODEL_NEW = {
     "albert": "anilguven/albert_tr_turkish_news",  
     "distilbert": "anilguven/distilbert_tr_turkish_news",
     "bert": "anilguven/bert_tr_turkish_news",
-    "xlm-roberta": "anilguven/xlm-roberta_tr_turkish_news"
+    "xlm-roberta": "anilguven/xlm-roberta_tr_turkish_news",
     "electra": "anilguven/electra_tr_turkish_news",
 }
 
