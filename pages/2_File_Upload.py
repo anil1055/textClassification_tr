@@ -1,8 +1,8 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="Turkish Review Analysis - via AG", page_icon='📖')
-st.header("📖Review Analysis for Your File - TR")
+st.set_page_config(page_title="Turkish Text Classification Tasks - via AG", page_icon='📖')
+st.header("📖Text Classification for Your File - TR")
 
 with st.sidebar:
     hf_key = st.text_input("HuggingFace Access Key", key="hf_key", type="password")
