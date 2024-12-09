@@ -32,9 +32,9 @@ formatted_names_to_identifiers = {
 
 with st.expander("About this app"):
     st.write(f"""
-    1-Choose your model for hotel review analysis (negative or positive).\n
-    2-Enter your sample text.\n
-    3-And model predict your text's result.
+    1-Choose your model for spam mail classification (ham or spam mail).\n
+    2-Enter your sample mail.\n
+    3-And model predict your mail's result.
     """)
 
 model_name: str = st.selectbox("Model", options=MODEL_SPAMS)
